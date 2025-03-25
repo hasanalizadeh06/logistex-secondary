@@ -5,7 +5,6 @@ import Image from "next/image"
 import UseSticky from "@/hooks/UseSticky"
 import { useState } from "react"
 import MobileSidebar from "./menu/MobileSidebar"
-import InjectableSvg from "@/components/common/InjectableSvg"
 
 import logo_1 from "@/assets/img/logo/w_logo.svg"
 import logo_2 from "@/assets/img/logo/logo02.svg"
