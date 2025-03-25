@@ -5,13 +5,6 @@ const HeaderTopTwo = () => {
       <div className="tg-header__top tg-header__top-three">
          <div className="container">
             <div className="row align-items-center">
-               <div className="col-xl-7">
-                  <ul className="tg-header__top-info tg-header__top-info-three left-side list-wrap">
-                     <li><i className="flaticon-location-1"></i>775 Rolling Green Rd</li>
-                     <li><i className="flaticon-envelope"></i><Link href="mailto:info@gmail.com">bill.sanders@example.com</Link></li>
-                     <li><i className="flaticon-time"></i>Mon – Sun: 9.00 am – 8.00pm</li>
-                  </ul>
-               </div>
                <div className="col-xl-5">
                   <div className="tg-header__top-right">
                      <div className="tg-header__top-social tg-header__top-social-three">

@@ -26,22 +26,6 @@ const HeaderThree = () => {
                         <div className="tgmenu__navbar-wrap tgmenu__main-menu d-none d-xl-flex">
                            <NavMenu />
                         </div>
-                        <div className="tgmenu__action tgmenu__action-four d-none d-md-flex">
-                           <ul className="list-wrap">
-                              <li className="header-contact header-contact-two">
-                                 <div className="icon">
-                                    <i className="flaticon-telephone"></i>
-                                 </div>
-                                 <div className="content">
-                                    <span>Emergency Call:</span>
-                                    <Link href="tel:0123456789">(205) 555-0100</Link>
-                                 </div>
-                              </li>
-                              <li className="header-btn">
-                                 <Link href="/contact" className="btn btn-three"><i className="flaticon-uptrend"></i>Track Order</Link>
-                              </li>
-                           </ul>
-                        </div>
                         <div onClick={() => setIsActive(true)} className="mobile-nav-toggler mobile-nav-toggler-two">
                            <i className="tg-flaticon-menu-1"></i>
                         </div>

@@ -6,19 +6,8 @@ const HeaderTopFour = () => {
       <div className="tg-header__top tg-header__top-two">
          <div className="container-fluid p-0">
             <div className="row align-items-center">
-               <div className="col-xl-7">
-                  <ul className="tg-header__top-info tg-header__top-info-two left-side list-wrap">
-                     <li><i className="flaticon-location-1"></i>775 Rolling Green Rd</li>
-                     <li><i className="flaticon-envelope"></i><a href="mailto:info@gmail.com">bill.sanders@example.com</a></li>
-                     <li><i className="flaticon-time"></i>Mon – Sun: 9.00 am – 8.00pm</li>
-                  </ul>
-               </div>
                <div className="col-xl-5">
                   <div className="tg-header__top-right tg-header__top-right-two">
-                     <ul className="tg-header__top-menu tg-header__top-menu-two list-wrap">
-                        <li><Link href="/contact">Help Center</Link></li>
-                        <li><Link href="/contact">Find Store</Link></li>
-                     </ul>
                      <div className="tg-header__top-social tg-header__top-social-two">
                         <span>Follow Us On:</span>
                         <ul className="list-wrap">
