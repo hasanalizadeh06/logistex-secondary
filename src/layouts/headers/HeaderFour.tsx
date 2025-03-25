@@ -35,20 +35,20 @@ const HeaderFour = () => {
                         </div>
                         <div className="tgmenu__action tgmenu__action-two d-none d-md-flex">
                            <ul className="list-wrap">
-                              <li className="header-search">
+                              {/* <li className="header-search">
                                  <a onClick={() => setIsSearch(true)} style={{ cursor: "pointer" }} className="search-open-btn">
                                     <i className="flaticon-search"></i>
                                  </a>
-                              </li>
-                              <li className="header-btn"><a href="contact.html" className="btn"><i className="flaticon-uptrend"></i>Track Order</a></li>
+                              </li> */}
+                              {/* <li className="header-btn"><a href="contact.html" className="btn"><i className="flaticon-uptrend"></i>Track Order</a></li> */}
                               <li>
-                                 <div className="offcanvas-toggle offcanvas-toggle-two">
+                                 {/* <div className="offcanvas-toggle offcanvas-toggle-two">
                                     <a onClick={() => setOffCanvas(true)} style={{ cursor: "pointer" }} className="menu-tigger">
                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
                                           <path d="M1.66669 15H28.3334M1.66669 6.66666H28.3334M1.66669 23.3333H28.3334" stroke="currentcolor" strokeWidth="1.83333" strokeLinecap="round" strokeLinejoin="round" />
                                        </svg>
                                     </a>
-                                 </div>
+                                 </div> */}
                               </li>
                            </ul>
                         </div>

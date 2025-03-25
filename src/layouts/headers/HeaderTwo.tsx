@@ -36,17 +36,17 @@ const HeaderTwo = () => {
                         <div className="tgmenu__action tgmenu__action-three d-none d-md-flex">
                            <ul className="list-wrap">
                               <li className="header-contact header-contact-two">
-                                 <div className="icon">
+                                 {/* <div className="icon">
                                     <i className="flaticon-telephone"></i>
-                                 </div>
-                                 <div className="content">
+                                 </div> */}
+                                 {/* <div className="content">
                                     <span>Emergency Call:</span>
                                     <Link href="tel:0123456789">(205) 555-0100</Link>
-                                 </div>
+                                 </div> */}
                               </li>
-                              <li className="header-btn">
+                              {/* <li className="header-btn">
                                  <Link href="/contact" className="btn btn-three">Get A Quote <InjectableSvg src="/assets/img/icon/right_arrow.svg" alt="" className="injectable" /></Link>
-                              </li>
+                              </li> */}
                            </ul>
                         </div>
                         <div onClick={() => setIsActive(true)} className="mobile-nav-toggler mobile-nav-toggler-two">
