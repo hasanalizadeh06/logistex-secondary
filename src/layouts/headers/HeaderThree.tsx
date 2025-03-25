@@ -28,7 +28,7 @@ const HeaderThree = () => {
                         </div>
                         <div className="tgmenu__action tgmenu__action-four d-none d-md-flex">
                            <ul className="list-wrap">
-                              <li className="header-contact header-contact-two">
+                              {/* <li className="header-contact header-contact-two">
                                  <div className="icon">
                                     <i className="flaticon-telephone"></i>
                                  </div>
@@ -39,7 +39,7 @@ const HeaderThree = () => {
                               </li>
                               <li className="header-btn">
                                  <Link href="/contact" className="btn btn-three"><i className="flaticon-uptrend"></i>Track Order</Link>
-                              </li>
+                              </li> */}
                            </ul>
                         </div>
                         <div onClick={() => setIsActive(true)} className="mobile-nav-toggler mobile-nav-toggler-two">

@@ -6,18 +6,18 @@ const HeaderTopOne = () => {
    <div className="container-fluid p-0">
        <div className="row align-items-center">
            <div className="col-xl-7">
-               <ul className="tg-header__top-info left-side list-wrap">
+               {/* <ul className="tg-header__top-info left-side list-wrap">
                    <li><i className="flaticon-location-1"></i>775 Rolling Green Rd</li>
                    <li><i className="flaticon-envelope"></i><Link href="mailto:info@gmail.com">bill.sanders@example.com</Link></li>
                    <li><i className="flaticon-time"></i>Mon – Sun: 9.00 am – 8.00pm</li>
-               </ul>
+               </ul> */}
            </div>
            <div className="col-xl-5">
                <div className="tg-header__top-right">
-                   <ul className="tg-header__top-menu list-wrap">
+                   {/* <ul className="tg-header__top-menu list-wrap">
                        <li><Link href="/contact">Help Center</Link></li>
                        <li><Link href="/contact">Find Store</Link></li>
-                   </ul>
+                   </ul> */}
                    <div className="tg-header__top-social">
                        <span>Follow Us On:</span>
                        <ul className="list-wrap">
