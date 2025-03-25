@@ -35,7 +35,7 @@ const HeaderFour = () => {
                         </div>
                         <div className="tgmenu__action tgmenu__action-two d-none d-md-flex">
                            <ul className="list-wrap">
-                              {/* <li className="header-search">
+                              <li className="header-search">
                                  <a onClick={() => setIsSearch(true)} style={{ cursor: "pointer" }} className="search-open-btn">
                                     <i className="flaticon-search"></i>
                                  </a>
@@ -49,7 +49,7 @@ const HeaderFour = () => {
                                        </svg>
                                     </a>
                                  </div>
-                              </li> */}
+                              </li>
                            </ul>
                         </div>
                         <div className="mobile-nav-toggler" onClick={() => setIsActive(true)}>
