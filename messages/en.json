@@ -1,0 +1,46 @@
+{
+  "Navigation":{
+    "partners": "Partners",
+    "about": "About",
+    "service": "Service",
+    "howItWorks": "How it's works",
+    "contact": "Contact",
+    "home": "Home"
+  },
+  "HomePage":{},
+  "Footer":{
+    "title1": "Fastest & secure way to transport",
+    "title2": "anything anytime",
+    "button": "Request A Quote",
+    "text":"International Logistics Services (ILS) – Reliable Logistics, Seamless Borders", 
+    "column1": {
+      "title": "Our Services",
+      "item1": "Air Freight",
+      "item2": "Smart Warehousing",
+      "item3": "Train Freight",
+      "item4": "Ocean Freight",
+      "item5": "Road Freight",
+      "item6": "Supply Chain"
+    },
+    "column2": {
+      "title": "Quick Links",
+      "item1": "How it's works",
+      "item2": "Partners",
+      "item3": "About",
+      "item4": "Service",
+      "item5": "Contact"
+    },
+    "column3": {
+      "title": "Information",
+      "item1_1": "58 Street Commercial Road",
+      "item1_2": "Fratton, Australia",
+      "time1" : "Mon - Fri: 8:00 - 17:00",
+      "time2" : "Sunday: Closed"
+    },
+    "warning": "We don’t send you any spam",
+    "button2": "Subscribe",
+    "email": "Enter your E-Mail",
+    "copy": "Copyright ©Logitex All Rights Reserved"
+
+  }
+}

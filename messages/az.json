@@ -1,0 +1,45 @@
+{
+  "Navigation":{
+    "partners": "Partnyorlar",
+    "about": "Haqqımızda",
+    "service": "Servis",
+    "howItWorks": "Necə işləyir",
+    "contact": "Əlaqə",
+    "home": "Ana Səhifə"
+  },
+  "HomePage":{},
+  "Footer": {
+    "title1": "Ən sürətli və təhlükəsiz nəqliyyat üsulu",
+    "title2": "hər hansı bir vaxtda",
+    "button": "Qiymət Təklifi İstəyin",
+    "text": "Beynəlxalq Loqistika Xidmətləri (ILS) - Etibarlı Loqistika, Sərhədsiz Sərhədlər",
+    "column1": {
+      "title": "Xidmətlərimiz",
+      "item1": "Hava Yükdaşıma",
+      "item2": "Ağıllı Anbarlama",
+      "item3": "Qatar Yükdaşıma",
+      "item4": "Dəniz Yükdaşıma",
+      "item5": "Yol Yükdaşıma",
+      "item6": "Təchizat Zənciri"
+    },
+    "column2": {
+      "title": "Tez Bağlantılar",
+      "item1": "Necə işləyir",
+      "item2": "Partnyorlar",
+      "item3": "Haqqımızda",
+      "item4": "Servis",
+      "item5": "Əlaqə"
+    },
+    "column3": {
+      "title": "Məlumat",
+      "item1_1": "58 Küçə Ticarət Yolu",
+      "item1_2": "Fratton, Avstraliya",
+      "time1": "B.e. - Cümə: 8:00 - 17:00",
+      "time2": "Bazar: Bağlıdır"
+    },
+    "warning": "Biz sizə heç bir spam göndərmirik",
+    "button2": "Abunə Ol",
+    "email": "E-Mailinizi daxil edin",
+    "copy": "Müəllif hüququ ©Logitex Bütün Hüquqlar Qorunur"
+  }
+}
