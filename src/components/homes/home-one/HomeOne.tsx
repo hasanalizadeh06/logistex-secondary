@@ -29,11 +29,9 @@ const HomeOne = () => {
             <Choose />
             <Achieved />
             <Marquee style={false} />
-            <Project />
             <RequestArea style={false} />
             <Testimonial style={false} />
             <WorkArea />
-            <Blog />
             <ContactMap />
          </main>
          <FooterOne />

@@ -4,8 +4,8 @@ import service_1 from "@/assets/img/services/services_img01.jpg"
 import service_2 from "@/assets/img/services/services_img02.jpg"
 import service_3 from "@/assets/img/services/services_img03.jpg"
 import service_4 from "@/assets/img/services/services_img04.jpg"
-import service_5 from "@/assets/img/services/services_img07.jpg"
-import service_6 from "@/assets/img/services/services_img08.jpg"
+import service_5 from "@/assets/img/images/Customs-declaration.jpeg"
+import service_6 from "@/assets/img/images/FedEx-Boxes.png"
 import service_7 from "@/assets/img/services/services_img09.jpg"
 
 interface DataType {
@@ -144,7 +144,24 @@ const service_data: DataType[] = [
       icon: "flaticon-train",
       title: "Rail Freight",
       desc: "Sustainable and reliable transport for bulk shipments.",
+   },
+   {
+      id: 5,
+      page: "inner_page",
+      img: service_5,
+      icon: "file",
+      title: "Customs Declarations & Clearance",
+      desc: "Expert handling of customs documentation and clearance procedures.",
+   },
+   {
+      id: 6,
+      page: "inner_page",
+      img: service_6,
+      icon: "flaticon-box",
+      title: "Domestic Deliveries",
+      desc: "Efficient nationwide delivery services across the country.",
    }
+
 ];
 
 export default service_data;

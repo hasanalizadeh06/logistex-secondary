@@ -1,12 +1,9 @@
-import img_1 from "@/assets/img/brand/brand_img01.png"
-import img_2 from "@/assets/img/brand/brand_img02.png"
-import img_3 from "@/assets/img/brand/brand_img03.png"
-import img_4 from "@/assets/img/brand/brand_img04.png"
-import img_5 from "@/assets/img/brand/brand_img05.png"
-import img_6 from "@/assets/img/brand/brand_img06.png"
+import img_1 from "@/assets/img/brand/THY-LOGO.png"
+import img_2 from "@/assets/img/brand/azal_logo.png"
+import img_3 from "@/assets/img/brand/silkway_logo.png"
 import Image, { StaticImageData } from "next/image"
 
-const partner_logo: StaticImageData[] = [img_1, img_2, img_3, img_4, img_5, img_6, img_2, img_2, img_3, img_4, img_5, img_6]
+const partner_logo: StaticImageData[] = [img_1, img_2, img_3]
 
 const PartnerArea = () => {
    return (

@@ -15,7 +15,7 @@ const MarqueeArea = ({ style }: PropsType) => {
     const [isPaused, setIsPaused] = useState(false);
 
     return (
-        <section className="marquee__area fix">
+        <section className="marquee__area fix mb-100">
             <div className="container-fluid p-0">
                 <div className="slider__marquee clearfix marquee-wrap">
                     <Marquee className="marquee_mode marquee__group" pauseOnHover={false} play={!isPaused}>
