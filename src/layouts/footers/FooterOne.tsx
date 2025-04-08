@@ -90,7 +90,7 @@ const FooterOne = () => {
                               </li>
                               <li>
                                  <i className="flaticon-telephone"></i>
-                                 <Link href="tel:0123456789">+123 888 9999</Link>
+                                 <Link href="tel:0123456789">+994 (050) 988 97 77</Link>
                               </li>
                               <li>
                                  <i className="flaticon-time"></i>

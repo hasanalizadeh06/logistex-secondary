@@ -8,36 +8,36 @@ const ContactArea = () => {
             <div className="row">
                <div className="col-12">
                   <div className="contact-map contact-map-two">
-                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48409.69813174607!2d-74.05163325136718!3d40.68264649999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25bae694479a3%3A0xb9949385da52e69e!2sBarclays%20Center!5e0!3m2!1sen!2sbd!4v1684309529719!5m2!1sen!2sbd" style={{border:"0"}} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                     <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3037.5703763225547!2d49.9066249760111!3d40.41836737143938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDDCsDI1JzA2LjEiTiA0OcKwNTQnMzMuMSJF!5e0!3m2!1saz!2saz!4v1744131803111!5m2!1saz!2saz" style={{ border: "0" }} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                   </div>
                </div>
             </div>
             <div className="row">
                <div className="col-lg-4 col-sm-6">
                   <div className="contact__info-item">
-                     <h4 className="title">Office in New York</h4>
-                     <p className="info-one">58 Street Commercial Road Fratton, <br/> Australia</p>
-                     <h4 className="title"><Link href="tel:0123456789">+(09) 3456 7890</Link></h4>
-                     <p className="info-two">Monday – Friday: 9:00-20:00 <br/> Saturday: 11:00 – 15:00</p>
-                     <Link href="mailto:contactinfo@gmail.com">contactinfo@gmail.com</Link>
+                     <h4 className="title">Office in Baku</h4>
+                     <p className="info-one">Arena plaza, mərtəbə 4, ofis 406 <br/> Baku</p>
+                     {/* <h4 className="title"><Link href="tel:0123456789">+(09) 3456 7890</Link></h4> */}
+                     {/* <p className="info-two">Monday – Friday: 9:00-20:00 <br/> Saturday: 11:00 – 15:00</p> */}
+                     {/* <Link href="mailto:contactinfo@gmail.com">İnfo@İls.co.az</Link> */}
                   </div>
                </div>
                <div className="col-lg-4 col-sm-6">
                   <div className="contact__info-item">
-                     <h4 className="title">Office in Canada</h4>
-                     <p className="info-one">16 Rue Auguste Cain, 75014 Paris, <br/> France</p>
-                     <h4 className="title"><Link href="tel:0123456789">+(09) 1256 7845</Link></h4>
-                     <p className="info-two">Monday – Friday: 9:00-20:00 <br/> Saturday: 11:00 – 15:00</p>
-                     <Link href="mailto:contactinfo@gmail.com">contactinfo@gmail.com</Link>
+                     <h4 className="title">Tel</h4>
+                     <p className="info-one"><Link href="tel:994509889777">+(994) 050 988 97 77</Link></p>
+                     {/* <h4 className="title"><Link href="tel:0123456789">+(994) 050 988 97 77</Link></h4> */}
+                     {/* <p className="info-two">Monday – Friday: 9:00-20:00 <br/> Saturday: 11:00 – 15:00</p> */}
+                     {/* <Link href="mailto:contactinfo@gmail.com">contactinfo@gmail.com</Link> */}
                   </div>
                </div>
                <div className="col-lg-4 col-sm-6">
                   <div className="contact__info-item">
-                     <h4 className="title">Office in Paris</h4>
-                     <p className="info-one">925 4th Ave #2300, Seattle, WA <br/> United States of America</p>
-                     <h4 className="title"><Link href="tel:0123456789">+(09) 3446 7892</Link></h4>
-                     <p className="info-two">Monday – Friday: 9:00-20:00 <br/> Saturday: 11:00 – 15:00</p>
-                     <Link href="mailto:contactinfo@gmail.com">contactinfo@gmail.com</Link>
+                     <h4 className="title">Mail</h4>
+                     <Link href="mailto:İnfo@İls.co.az"><p className="info-one">İnfo@İls.co.az</p></Link>
+                     {/* <h4 className="title"><Link href="tel:0123456789">+(09) 3446 7892</Link></h4> */}
+                     {/* <p className="info-two">Monday – Friday: 9:00-20:00 <br/> Saturday: 11:00 – 15:00</p> */}
+                     {/* <Link href="mailto:contactinfo@gmail.com">contactinfo@gmail.com</Link> */}
                   </div>
                </div>
             </div>

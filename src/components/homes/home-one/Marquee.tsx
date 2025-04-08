@@ -3,6 +3,7 @@ import Link from "next/link";
 import Marquee from "react-fast-marquee";
 import { useState } from "react";
 import InjectableSvg from "@/components/common/InjectableSvg";
+import { useTranslations } from "next-intl";
 
 const marquee_title: string[] = ["Air Freight", "Logistics", "Delivery Service", "Tracking", "Warehouse"];
 
@@ -13,6 +14,7 @@ interface PropsType {
 const MarqueeArea = ({ style }: PropsType) => {
 
     const [isPaused, setIsPaused] = useState(false);
+    const t = useTranslations("HomePage.section6");
 
     return (
         <section className="marquee__area fix mb-100">
@@ -26,7 +28,7 @@ const MarqueeArea = ({ style }: PropsType) => {
                                 onMouseEnter={() => setIsPaused(true)}
                                 onMouseLeave={() => setIsPaused(false)}
                             >
-                                <Link href="/services"><InjectableSvg src="/assets/img/icon/star.svg" alt="" className="injectable" /> {title}</Link>
+                                <Link href="/services"><InjectableSvg src="/assets/img/icon/star.svg" alt="" className="injectable" /> {t("item"+(i+1))}</Link>
                             </h6>
                         ))}
                     </Marquee>

@@ -5,18 +5,20 @@ import Link from "next/link"
 import banner_img from "@/assets/img/banner/banner_img01.png"
 import shape_1 from "@/assets/img/banner/banner_shape.png"
 import shape_2 from "@/assets/img/banner/banner_img02.png"
+import { useTranslations } from "next-intl";
 
 const Hero = () => {
+   const t = useTranslations("HomePage.section1");
    return (
       <section className="banner__area banner__bg" style={{backgroundImage:`url(/assets/img/banner/banner_bg.jpg)`}}>
          <div className="container">
             <div className="row align-items-end">
                <div className="col-lg-6">
                   <div className="banner__content">
-                     <span className="sub-title" data-aos="fade-up" data-aos-delay="200">Fastest & Secure Logistics</span>
-                     <h2 className="title" data-aos="fade-up" data-aos-delay="400">Delivering the Full Range of Logistic Solutions</h2>
-                     <p data-aos="fade-up" data-aos-delay="600">At ILS, we connect businesses with seamless and efficient logistics solutions worldwide. From freight forwarding to customs clearance, our expertise ensures smooth and timely deliveries across industries.</p>
-                     <Link href="/services" className="btn" data-aos="fade-up" data-aos-delay="800">Explore Our Services <InjectableSvg src="/assets/img/icon/right_arrow.svg" alt="" className="injectable" /></Link>
+                     <span className="sub-title" data-aos="fade-up" data-aos-delay="200">{t("subtitle")}</span>
+                     <h2 className="title" data-aos="fade-up" data-aos-delay="400">{t("title")}</h2>
+                     <p data-aos="fade-up" data-aos-delay="600">{t("text")}</p>
+                     <Link href="/services" className="btn" data-aos="fade-up" data-aos-delay="800">{t("button")} <InjectableSvg src="/assets/img/icon/right_arrow.svg" alt="" className="injectable" /></Link>
                   </div>
                </div>
                <div className="col-lg-6">

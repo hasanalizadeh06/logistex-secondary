@@ -4,12 +4,15 @@ import { useInView } from "react-intersection-observer";
 
 import achieve_img from "@/assets/img/images/achieved_img.png";
 import shape from "@/assets/img/images/achieved_shape.png";
+import { use } from "react";
+import { useTranslations } from "next-intl";
 
 const Achieved: React.FC = () => {
    const [ref, inView] = useInView({
       triggerOnce: true,
       threshold: 0.75,  
    });
+   const t = useTranslations("HomePage.section5")
 
    return (
       <section className="achieved__area fix">
@@ -28,18 +31,20 @@ const Achieved: React.FC = () => {
                <div className="col-lg-6">
                   <div className="achieved__content">
                      <div className="section__title mb-20">
-                        <span className="sub-title">What We Achieved!</span>
+                        <span className="sub-title">{t("subtitle")}</span>
                         <h2 className="title">
-                           We are logistics improving our skills to fulfill delivery of any level!
+                           {t("title")}
                         </h2>
                      </div>
                      <p>
-                     At ILS, we are constantly enhancing our skills to handle deliveries of any scale. With improved technology and expertise, we ensure efficient and precise delivery, no matter the complexity.
+                        {t("desc")}
                      </p>
                      <div className="progress__wrap" ref={ref}>
                         <div className="progress__item">
                            <div className="progress__item-top">
-                              <h3 className="progress__title">Successful Delivery</h3>
+                              <h3 className="progress__title">
+                                 {t("list.item1")}
+                              </h3>
                               <div className="progress-value">
                                  <span className="counter-number">82</span>%
                               </div>
@@ -57,7 +62,9 @@ const Achieved: React.FC = () => {
                         </div>
                         <div className="progress__item">
                            <div className="progress__item-top">
-                              <h3 className="progress__title">Happy Customers</h3>
+                              <h3 className="progress__title">
+                                 {t("list.item2")}
+                              </h3>
                               <div className="progress-value">
                                  <span className="counter-number">90</span>%
                               </div>

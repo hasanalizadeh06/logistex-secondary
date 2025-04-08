@@ -7,7 +7,217 @@
     "contact": "Contact",
     "home": "Home"
   },
-  "HomePage":{},
+  "HomePage":{
+    "section1":{
+      "subtitle": "Fastest & Secure Logistics",
+      "title": "Delivering the Full Range of Logistic Solutions",
+      "text": "At ILS, we connect businesses with seamless and efficient logistics solutions worldwide. From freight forwarding to customs clearance, our expertise ensures smooth and timely deliveries across industries.",
+      "button": "Explore Our Services"
+    },
+    "section2":{
+      "subtitle": "Reliable Logistic & Transport Solutions",
+      "title": {
+        "part1":"Delivering the Full Range",
+        "part2":"Of Logistic Solutions"
+      },
+      "text": "At International Logistics Services (ILS), we deliver a comprehensive range of logistics solutions that cover every aspect of transportation, customs clearance, and supply chain management. From seamless freight forwarding to secure storage and efficient delivery, our team ensures that your goods move smoothly across borders, no matter the destination. We provide tailored services that meet the unique needs of businesses and individuals, offering reliability and peace of mind throughout every step of the journey.",
+      "list": {
+        "item1": "Quality Control System",
+        "item2": "100% Satisfaction Guarantee",
+        "item3": "Professional and Qualified",
+        "item4": "Safe, Reliable And Express"
+      },
+      "stats": {
+        "title": "Clients 4.7 (1,567 Reviews)",
+        "text": {
+          "part1":"Years Of",
+          "part2":"Experience"
+        }
+      },
+      "button": "Get In Touch"
+    },
+    "section3": {
+      "subtitle": "Our Services",
+      "title": {
+        "part1": "Covering All Logistics",
+        "part2": "Solutions For you"
+      },
+      "button": "All Services",
+      "item1": {
+        "title": "Freight Transportation",
+        "text": "Reliable delivery by land, air, sea, and rail."
+      },
+      "item2": {
+        "title": "Custom Brokerage",
+        "text": "Expert handling of declarations, tariffs, and documentation."
+      },
+      "item3": {
+        "title": "Warehousing & Distribution",
+        "text": "Secure storage and seamless order fulfillment."
+      },
+      "item4": {
+        "title": "Specialized Logistics",
+        "text": "Tailored solutions for oversized, temperature-sensitive, and high-value cargo."
+      },
+      "info":"Read More"
+    },
+    "section4":{
+      "subtitle": "Why Choose ILS",
+      "title": {
+        "part1":"We are logistics improving",
+        "part2":"our skills to fulfill delivery",
+        "part3": "of any level!"
+      },
+      "stats": {
+        "title": "Delivered Goods",
+        "text": "Clients Worldwide"
+      },
+      "items":{
+        "item1":{
+          "title": "Global Network",
+          "text": "Strong partnerships across multiple regions."
+        },
+        "item2":{
+          "title": "Fast & Secure Shipments",
+          "text": "Ensuring reliability and speed."
+        },
+        "item3":{
+          "title": "Hassle-Free Documentation",
+          "text": "End-to-end customs and compliance support."
+        },
+        "item4":{
+          "title": "Customer-Centric Approach",
+          "text": "Dedicated support for every shipment."
+        }
+      }
+    },
+    "section5":{
+      "subtitle": "What We Achieved!",
+      "title": "We are logistics improving our skills to fulfill delivery of any level!",
+      "desc":"At ILS, we are constantly enhancing our skills to handle deliveries of any scale. With improved technology and expertise, we ensure efficient and precise delivery, no matter the complexity.",
+      "list":{
+        "item1":"Successful Delivery",
+        "item2":"Happy Customers"
+      }
+    },
+    "section6":{
+      "item1": "Air Freight",
+      "item2": "Logistics",
+      "item3": "Delivery Service",
+      "item4": "Tracking",
+      "item5": "Warehouse"
+    },
+    "section7":{
+      "item1":{
+        "title": "Request A Quote",
+        "category1":{
+          "title":  "Personal Data",
+          "list": {
+            "item1":"Name*",
+            "item2":"Mail*",
+            "item3":"Phone*"
+          }
+        },
+        "category2":{
+          "title":  "Shipment Data",
+          "list": {
+            "item1":{
+              "item1":"Freight Type",
+              "item2":"Freight Type",
+              "item3":"Freight Type"
+            },
+            "item2":"City Of Departure",
+            "item3":"Delivery City*",
+            "item4":{
+              "item1":"Incoterms",
+              "item2":"Incoterms",
+              "item3":"Incoterms"
+            },
+            "item5":"Weight",
+            "item6":"Height",
+            "item7":"Weight",
+            "item8":"Length",
+            "item9":{
+              "item1":"Fragile",
+              "item2":"Express Delivery",
+              "item3":"Insurance",
+              "item4":"Packaging"
+            },
+            "item10":"Request A Quote"
+          }
+        }
+      },
+      "item2":{
+        "title": "Track & Trace",
+        "category1":{
+          "title":"Shipment Type",
+          "desc":{
+            "item1":"Incoterms",
+            "item2":"Incoterms",
+            "item3":"Incoterms"
+          }
+        },
+        "category2":{
+          "title":"Tracking Number",
+          "desc":"You can enter up to a maximum of 10 airway bill numbers for tracking"
+        },
+        "category3":{
+          "item1":"Air Freight",
+          "item2":"Ocean Freight",
+          "item3":"Road Freight",
+          "item4":"Express Delivery"
+        },
+        "button":"Track & Trace"
+      }
+    },
+    "section8":{
+      "item1":{
+        "name":"Samantha Richards",
+        "designation": "CEO, logistex Agency",
+        "text": "“ As a small business owner, shipping and logistics can be a headache. But ever since we partnered with ILS, everything has been smooth sailing! Their team is incredibly responsive and efficient. Our shipments from China to Azerbaijan always arrive on time, and I love how easy the customs clearance process is. ILS truly offers a hassle-free experience every time. Highly recommend them!"
+      },
+      "item2":{
+        "name":"Alexey Ivanov",
+        "designation": "CEO, logistex Agency",
+        "text": "“I’ve been working in international trade for over a decade, and I can honestly say that ILS is the best logistics company I’ve ever used. Their services across Russia, Turkey, and the UAE are exceptional. No delays, no hidden fees, and always on top of communication. Whether it's air freight or customs clearance, they handle it all professionally. Truly reliable!"
+      },
+      "item3":{
+        "name":"Lena Orlov",
+        "designation": "CEO, logistex Agency",
+        "text": "“ I’ve been using ILS for over a year, and they’ve never let me down! Their seamless services from Kazakhstan to European countries are a real game-changer for our business. They handle everything from warehousing to delivery with absolute precision, and their tracking system is fantastic. I’ll definitely continue working with them in the future!"
+      },
+      "item4":{
+        "name":"Michael Thompson",
+        "designation": "CEO, logistex Agency",
+        "text": "“ ILS has been our go-to logistics partner for shipments from Azerbaijan to Georgia, and their service has been top-notch. They offer transparent pricing, quick delivery, and great customer service. Whenever I have a question, their team is always ready to help. I highly recommend their services for anyone looking for reliable logistics solutions."
+      }
+    },
+    "section9":{
+      "subtitle":"HOW IT WORKS",
+      "title":{
+        "part1":"How We Operate Unveiling",
+        "part2":"Our Logistics Process"
+      },
+      "list":{
+        "item1":{
+          "title": "Request a Quote",
+          "text": "Submit your shipment details, and we provide a tailored quote."
+        },
+        "item2":{
+          "title": "Cargo Pickup",
+          "text": "We collect your goods from the specified location and prepare for transit."
+        },
+        "item3":{
+          "title": "Transportation & Customs",
+          "text": "Your cargo is transported via land, air, sea, or rail, with customs clearance handled efficiently."
+        },
+        "item4":{
+          "title": "Delivery & Confirmation",
+          "text": "We ensure secure delivery to the final destination with tracking updates."
+        }
+      }
+    }
+  },
   "Footer":{
     "title1": "Fastest & secure way to transport",
     "title2": "anything anytime",

@@ -7,7 +7,217 @@
     "contact": "Əlaqə",
     "home": "Ana Səhifə"
   },
-  "HomePage":{},
+  "HomePage": {
+    "section1": {
+      "subtitle": "Ən sürətli və təhlükəsiz loqistika",
+      "title": "Loqistika Həllərinin Tam Spektrini Təqdim Edirik",
+      "text": "ILS-də biz biznesləri dünya üzrə problemsiz və səmərəli loqistika həlləri ilə birləşdiririk. Yük daşımadan gömrük rəsmiləşdirilməsinə qədər, bizim təcrübəmiz sənayelər üzrə vaxtında və hamar çatdırılmaları təmin edir.",
+      "button": "Xidmətlərimizi Kəşf Edin"
+    },
+    "section2": {
+      "subtitle": "Etibarlı Loqistika və Nəqliyyat Həlləri",
+      "title": {
+        "part1": "Tam Spektrdə",
+        "part2": "Loqistika Həlləri Təqdim Edirik"
+      },
+      "text": "Beynəlxalq Loqistika Xidmətləri (ILS) olaraq, nəqliyyat, gömrük rəsmiləşdirilməsi və təchizat zəncirinin idarə edilməsinin hər aspektini əhatə edən geniş loqistika həlləri təqdim edirik. Problemsiz yük daşımadan təhlükəsiz saxlama və səmərəli çatdırılmaya qədər, komandamız mallarınızın sərhədlərdən asanlıqla keçməsini təmin edir, təyinat yerindən asılı olmayaraq. Biz bizneslərin və fərdlərin unikal ehtiyaclarını qarşılayan fərdi xidmətlər təqdim edirik, hər addımda etibarlılıq və rahatlıq təklif edirik.",
+      "list": {
+        "item1": "Keyfiyyətə Nəzarət Sistemi",
+        "item2": "100% Məmnuniyyət Zəmanəti",
+        "item3": "Peşəkar və Təcrübəli",
+        "item4": "Təhlükəsiz, Etibarlı və Sürətli"
+      },
+      "stats": {
+        "title": "Müştərilər 4.7 (1,567 Rəy)",
+        "text": {
+          "part1": "İllərin",
+          "part2": "Təcrübəsi"
+        }
+      },
+      "button": "Əlaqə Saxlayın"
+    },
+    "section3": {
+      "subtitle": "Xidmətlərimiz",
+      "title": {
+        "part1": "Bütün Loqistika Həllərini",
+        "part2": "Sizin Üçün Əhatə Edirik"
+      },
+      "button": "Bütün Xidmətlər",
+      "item1": {
+        "title": "Yük Daşımaları",
+        "text": "Quru, hava, dəniz və dəmir yolu ilə etibarlı çatdırılma."
+      },
+      "item2": {
+        "title": "Gömrük Brokerliyi",
+        "text": "Bəyannamələrin, tariflərin və sənədlərin peşəkar idarə olunması."
+      },
+      "item3": {
+        "title": "Anbarlama və Paylama",
+        "text": "Təhlükəsiz saxlama və problemsiz sifariş icrası."
+      },
+      "item4": {
+        "title": "Xüsusi Loqistika",
+        "text": "Böyük ölçülü, temperatur həssas və yüksək dəyərli yüklər üçün fərdi həllər."
+      },
+      "info":"Daha Ətraflı"
+    },
+    "section4": {
+      "subtitle": "Niyə ILS-i Seçməlisiniz",
+      "title": {
+        "part1": "Biz hər hansı bir səviyyədə",
+        "part2": "bacarıqlarımızı çatdırılma üçün təkmilləşdirərək",
+        "part3": "loqistikanı inkişaf etdiririk!"
+      },
+      "stats": {
+        "title": "Çatdırılmış Yüklər",
+        "text": "Dünya üzrə Müştərilər"
+      },
+      "items": {
+        "item1": {
+          "title": "Qlobal Şəbəkə",
+          "text": "Bir çox bölgələrdə güclü tərəfdaşlıqlar."
+        },
+        "item2": {
+          "title": "Sürətli və Təhlükəsiz Çatdırılmalar",
+          "text": "Etibarlılığı və sürəti təmin edir."
+        },
+        "item3": {
+          "title": "Sənədləşmədə Rahatlıq",
+          "text": "Gömrük və uyğunluq dəstəyi tamamilə."
+        },
+        "item4": {
+          "title": "Müştəri-Mərkəzli Yanaşma",
+          "text": "Hər bir çatdırılma üçün xüsusi dəstək."
+        }
+      }
+    },
+    "section5": {
+      "subtitle": "Nailiyyətlərimiz!",
+      "title": "Biz hər hansı bir səviyyədə çatdırılma üçün bacarıqlarımızı təkmilləşdirərək loqistikanı inkişaf etdiririk!",
+      "desc": "ILS-də biz hər hansı bir miqyasda çatdırılmaları idarə etmək üçün bacarıqlarımızı daim təkmilləşdiririk. Təkmilləşdirilmiş texnologiya və təcrübə ilə biz çatdırılmanın səmərəliliyini və dəqiqliyini təmin edirik, mürəkkəbliyindən asılı olmayaraq.",
+      "list": {
+        "item1": "Uğurlu Çatdırılma",
+        "item2": "Xoşbəxt Müştərilər"
+      }
+    },
+    "section6": {
+      "item1": "Hava Yükdaşıma",
+      "item2": "Loqistika",
+      "item3": "Çatdırılma Xidməti",
+      "item4": "İzləmə",
+      "item5": "Anbar"
+    },
+    "section7": {
+      "item1": {
+        "title": "Təklif Sorğusu",
+        "category1": {
+          "title": "Şəxsi Məlumatlar",
+          "list": {
+            "item1": "Ad*",
+            "item2": "E-Poçt*",
+            "item3": "Telefon*"
+          }
+        },
+        "category2": {
+          "title": "Göndəriş Məlumatları",
+          "list": {
+            "item1": {
+              "item1": "Yük Növü",
+              "item2": "Yük Növü",
+              "item3": "Yük Növü"
+            },
+            "item2": "Göndərmə Şəhəri",
+            "item3": "Çatdırılma Şəhəri*",
+            "item4": {
+              "item1": "Incoterms",
+              "item2": "Incoterms",
+              "item3": "Incoterms"
+            },
+            "item5": "Çəki",
+            "item6": "Hündürlük",
+            "item7": "En",
+            "item8": "Uzunluq",
+            "item9": {
+              "item1": "Kövrək",
+              "item2": "Sürətli Çatdırılma",
+              "item3": "Sığorta",
+              "item4": "Qablaşdırma"
+            },
+            "item10": "Təklif Sorğusu"
+          }
+        }
+      },
+      "item2": {
+        "title": "İzləmə və Təqib",
+        "category1": {
+          "title": "Göndəriş Növü",
+          "desc": {
+            "item1": "Incoterms",
+            "item2": "Incoterms",
+            "item3": "Incoterms"
+          }
+        },
+        "category2": {
+          "title": "İzləmə Nömrəsi",
+          "desc": "İzləmə üçün maksimum 10 hava yük sənədi nömrəsi daxil edə bilərsiniz"
+        },
+        "category3": {
+          "item1": "Hava Yükdaşıma",
+          "item2": "Dəniz Yükdaşıma",
+          "item3": "Yol Yükdaşıma",
+          "item4": "Sürətli Çatdırılma"
+        },
+        "button": "İzləmə və Təqib"
+      }
+    },
+    "section8": {
+      "item1": {
+        "name": "Samantha Richards",
+        "designation": "CEO, logistex Agency",
+        "text": "“ Kiçik biznes sahibi olaraq, göndərmə və loqistika baş ağrısı ola bilər. Amma ILS ilə əməkdaşlıq etdiyimizdən bəri hər şey çox rahatdır! Onların komandası inanılmaz dərəcədə cavabdeh və səmərəlidir. Çindən Azərbaycana göndərişlərimiz həmişə vaxtında çatır və gömrük rəsmiləşdirilməsi prosesi çox asandır. ILS həqiqətən hər dəfə problemsiz təcrübə təqdim edir. Onları yüksək tövsiyə edirəm!"
+      },
+      "item2": {
+        "name": "Alexey Ivanov",
+        "designation": "CEO, logistex Agency",
+        "text": "“ Mən beynəlxalq ticarətdə on ildən çoxdur işləyirəm və səmimi olaraq deyə bilərəm ki, ILS istifadə etdiyim ən yaxşı loqistika şirkətidir. Onların Rusiya, Türkiyə və BƏƏ üzrə xidmətləri müstəsnadır. Gecikmələr yoxdur, gizli ödənişlər yoxdur və həmişə ünsiyyətin üstündədirlər. Hava yükdaşıma və ya gömrük rəsmiləşdirilməsi olsun, hər şeyi peşəkar şəkildə idarə edirlər. Həqiqətən etibarlıdır!"
+      },
+      "item3": {
+        "name": "Lena Orlov",
+        "designation": "CEO, logistex Agency",
+        "text": "“ Mən bir ildən çoxdur ki, ILS-dən istifadə edirəm və onlar məni heç vaxt məyus etməyiblər! Qazaxıstandan Avropa ölkələrinə problemsiz xidmətləri bizim biznesimiz üçün əsl oyun dəyişdiricidir. Onlar hər şeyi anbardan çatdırılmaya qədər tam dəqiqliklə idarə edirlər və onların izləmə sistemi fantastikdir. Gələcəkdə də onlarla işləməyə davam edəcəyəm!"
+      },
+      "item4": {
+        "name": "Michael Thompson",
+        "designation": "CEO, logistex Agency",
+        "text": "“ ILS Azərbaycanla Gürcüstan arasında göndərişlər üçün bizim əsas loqistika tərəfdaşımız olub və onların xidməti yüksək səviyyədədir. Onlar şəffaf qiymətlər, sürətli çatdırılma və əla müştəri xidməti təklif edirlər. Nə vaxt sualım olsa, onların komandası həmişə kömək etməyə hazırdır. Etibarlı loqistika həlləri axtaran hər kəsə onların xidmətlərini tövsiyə edirəm."
+      }
+    },
+    "section9": {
+      "subtitle": "NECƏ İŞLƏYİR",
+      "title": {
+        "part1": "Biz Loqistika Prosesimizi",
+        "part2": "Necə İdarə Edirik"
+      },
+      "list": {
+        "item1": {
+          "title": "Təklif Sorğusu",
+          "text": "Göndəriş detallarınızı təqdim edin və biz fərdi təklif təqdim edirik."
+        },
+        "item2": {
+          "title": "Yükün Götürülməsi",
+          "text": "Biz mallarınızı göstərilən yerdən toplayırıq və tranzit üçün hazırlayırıq."
+        },
+        "item3": {
+          "title": "Nəqliyyat və Gömrük",
+          "text": "Yükünüz quru, hava, dəniz və ya dəmir yolu ilə daşınır, gömrük rəsmiləşdirilməsi səmərəli şəkildə idarə olunur."
+        },
+        "item4": {
+          "title": "Çatdırılma və Təsdiq",
+          "text": "Biz son təyinat yerinə təhlükəsiz çatdırılmanı izləmə yeniləmələri ilə təmin edirik."
+        }
+      }
+    }
+  },
   "Footer": {
     "title1": "Ən sürətli və təhlükəsiz nəqliyyat üsulu",
     "title2": "hər hansı bir vaxtda",

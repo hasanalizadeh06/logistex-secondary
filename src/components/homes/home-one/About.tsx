@@ -10,8 +10,9 @@ import author2 from "@/assets/img/images/author01.png"
 import author3 from "@/assets/img/images/author01.png"
 import author4 from "@/assets/img/images/author01.png"
 import shape_1 from "@/assets/img/images/about_shape.png"
-
+import { useTranslations } from "next-intl";
 const About = () => {
+   const t = useTranslations("HomePage.section2");
    return (
       <section className="about__area pt-120 pb-120">
          <div className="container">
@@ -26,21 +27,21 @@ const About = () => {
                <div className="col-lg-6">
                   <div className="about__content">
                      <div className="section__title mb-15">
-                        <span className="sub-title">Reliable Logistic & Transport Solutions</span>
-                        <h2 className="title">Delivering the Full Range <br /> Of logistics solutions</h2>
+                        <span className="sub-title">{t("subtitle")}</span>
+                        <h2 className="title">{t("title.part1")} <br /> {t("title.part2")}</h2>
                      </div>
-                     <p>At International Logistics Services (ILS), we deliver a comprehensive range of logistics solutions that cover every aspect of transportation, customs clearance, and supply chain management. From seamless freight forwarding to secure storage and efficient delivery, our team ensures that your goods move smoothly across borders, no matter the destination. We provide tailored services that meet the unique needs of businesses and individuals, offering reliability and peace of mind throughout every step of the journey.</p>
+                     <p>{t("text")}</p>
                      <div className="about__content-bottom">
                         <div className="about__list-box-wrap">
                            <div className="about__list-box">
                               <ul className="list-wrap">
-                                 <li><i className="flaticon-check"></i>Quality Control System</li>
-                                 <li><i className="flaticon-check"></i>100% Satisfaction Guarantee</li>
-                                 <li><i className="flaticon-check"></i>Professional and Qualified</li>
-                                 <li><i className="flaticon-check"></i>Safe, Reliable And Express</li>
+                                 <li><i className="flaticon-check"></i>{t("list.item1")}</li>
+                                 <li><i className="flaticon-check"></i>{t("list.item2")}</li>
+                                 <li><i className="flaticon-check"></i>{t("list.item3")}</li>
+                                 <li><i className="flaticon-check"></i>{t("list.item4")}</li>
                               </ul>
                            </div>
-                           <Link href="/services" className="btn">Get in Touch <InjectableSvg src="/assets/img/icon/right_arrow.svg" alt="" className="injectable" /></Link>
+                           <Link href="/services" className="btn">{t("button")} <InjectableSvg src="/assets/img/icon/right_arrow.svg" alt="" className="injectable" /></Link>
                         </div>
                         <div className="about__review-wrap">
                            <div className="about__review-box">
@@ -57,11 +58,11 @@ const About = () => {
                                  <i className="fas fa-star"></i>
                                  <i className="fas fa-star"></i>
                               </div>
-                              <span>Clients 4.7 (1,567 Reviews)</span>
+                              <span>{t("stats.title")}</span>
                            </div>
                            <div className="experience__box">
                               <h4 className="title">25</h4>
-                              <span>Years Of <br /> Experience</span>
+                              <span>{t("stats.text.part1")} <br /> {t("stats.text.part2")}</span>
                            </div>
                         </div>
                      </div>

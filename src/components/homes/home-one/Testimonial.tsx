@@ -12,6 +12,7 @@ import author_2 from "@/assets/img/images/author02.png"
 import author_3 from "@/assets/img/images/author03.png"
 import author_4 from "@/assets/img/images/author04.png"
 import shape from "@/assets/img/images/testimonial_shape.png"
+import { useTranslations } from 'next-intl';
 
 const author_data: StaticImageData[] = [author_1, author_2, author_3, author_4];
 
@@ -62,6 +63,8 @@ const Testimonial = ({ style }: PropsType) => {
 
    const [thumbsSwiper, setThumbsSwiper] = useState<SwiperClass | null>(null);
 
+   const t = useTranslations("HomePage.section8")
+
    return (
       <section className={`${style ? "testimonial__area-two section-pt-130 section-pb-130" : "testimonial__area"}`}>
          <div className="container">
@@ -98,12 +101,12 @@ const Testimonial = ({ style }: PropsType) => {
                         }}
                         className="testimonial-active"
                      >
-                        {testi_data.map((item) => (
+                        {testi_data.map((item, i) => (
                            <SwiperSlide key={item.id} className="swiper-slide">
                               <div className="testimonial__item">
                                  <div className="testimonial__info">
-                                    <h2 className="name">{item.title}</h2>
-                                    <span>{item.designation}</span>
+                                    <h2 className="name">{t(`item${i+1}.name`)}</h2>
+                                    <span>{t(`item${i+1}.designation`)}</span>
                                  </div>
                                  <div className="testimonial__rating">
                                     <i className="fas fa-star"></i>
@@ -113,7 +116,7 @@ const Testimonial = ({ style }: PropsType) => {
                                     <i className="fas fa-star"></i>
                                  </div>
                                  <div className={`testimonial__content ${style ? "testimonial__content-two" : ""}`}>
-                                    <p>{item.desc}</p>
+                                    <p>{t(`item${i+1}.text`)}</p>
                                  </div>
                               </div>
                            </SwiperSlide>
