@@ -7,6 +7,26 @@
     "contact": "Contact",
     "home": "Home"
   },
+  "AboutPage":{
+    "section1":{
+      "subtitle": "About Logistics Company",
+      "title": "International Logistics Services (ILS) – Reliable Logistics, Seamless Borders",
+      "text":{
+        "part1": "At International Logistics Services (ILS), we take pride in providing efficient, secure, and seamless transportation and customs clearance services across multiple global markets.",
+        "part2": {
+          "item1": "Quality Control System",
+          "item2": "100% Satisfaction Guarantee",
+          "item3": "Professional and Qualified",
+          "item4": "Safe, Reliable And Express"
+        },
+        "part3": {
+          "item1":"Flexible, Improved & Accelerated Solutions!",
+          "item2":"Clients Worldwide"
+        },
+        "part4": "With a strong presence in Azerbaijan, Russia, Kazakhstan, Turkey, China, European countries, the UAE, and Georgia, we ensure that businesses and individuals experience hassle-free logistics solutions tailored to their needs."
+      }
+    }
+  },
   "HomePage":{
     "section1":{
       "subtitle": "Fastest & Secure Logistics",

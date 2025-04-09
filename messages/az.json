@@ -7,6 +7,26 @@
     "contact": "Əlaqə",
     "home": "Ana Səhifə"
   },
+  "AboutPage": {
+    "section1": {
+      "subtitle": "Loqistika Şirkəti Haqqında",
+      "title": "Beynəlxalq Loqistika Xidmətləri (ILS) – Etibarlı Loqistika, Sərhədsiz Sərhədlər",
+      "text": {
+        "part1": "Beynəlxalq Loqistika Xidmətləri (ILS) olaraq, biz səmərəli, təhlükəsiz və problemsiz nəqliyyat və gömrük rəsmiləşdirilməsi xidmətləri təqdim etməkdən qürur duyuruq.",
+        "part2": {
+          "item1": "Keyfiyyətə Nəzarət Sistemi",
+          "item2": "100% Məmnuniyyət Zəmanəti",
+          "item3": "Peşəkar və Təcrübəli",
+          "item4": "Təhlükəsiz, Etibarlı və Sürətli"
+        },
+        "part3": {
+          "item1": "Elastik, Təkmilləşdirilmiş və Sürətləndirilmiş Həllər!",
+          "item2": "Dünya üzrə Müştərilər"
+        },
+        "part4": "Azərbaycan, Rusiya, Qazaxıstan, Türkiyə, Çin, Avropa ölkələri, BƏƏ və Gürcüstanda güclü mövcudluğumuzla, biz bizneslərin və fərdlərin ehtiyaclarına uyğunlaşdırılmış problemsiz loqistika həlləri ilə təmin olunmasını təmin edirik."
+      }
+    }
+  },
   "HomePage": {
     "section1": {
       "subtitle": "Ən sürətli və təhlükəsiz loqistika",

@@ -32,14 +32,14 @@ const Service = () => {
                         <div className="services__thumb-wrap">
                            <div className="services__thumb">
                               <Image src={item.img ? item.img : ""} alt="img" />
-                              <Link href="/services-details" className="btn btn-two border-btn">{t("info")} <InjectableSvg src="/assets/img/icon/right_arrow.svg" alt="" className="injectable" /></Link>
+                              <Link href="/services" className="btn btn-two border-btn">{t("info")} <InjectableSvg src="/assets/img/icon/right_arrow.svg" alt="" className="injectable" /></Link>
                            </div>
                            <div className="services__icon">
                               <i className={item.icon}></i>
                            </div>
                         </div>
                         <div className="services__content">
-                           <h3 className="title"><Link href="/services-details">{t(item.title+".title")}</Link></h3>
+                           <h3 className="title"><Link href="/services">{t(item.title+".title")}</Link></h3>
                            <p>{t(item.title+".text")}</p>
                         </div>
                      </div>
