@@ -1,19 +1,21 @@
 import img_1 from "@/assets/img/brand/THY-LOGO.png"
 import img_2 from "@/assets/img/brand/azal_logo.png"
 import img_3 from "@/assets/img/brand/silkway_logo.png"
+import { useTranslations } from "next-intl"
 import Image, { StaticImageData } from "next/image"
 
 const partner_logo: StaticImageData[] = [img_1, img_2, img_3]
 
 const PartnerArea = () => {
+   const t = useTranslations("Partners")
    return (
       <section className="partner__area section-py-120">
          <div className="container">
             <div className="row">
                <div className="col-lg-12">
                   <div className="section__title text-center mb-50">
-                     <span className="sub-title">Our Partners</span>
-                     <h2 className="title">Our World wide Partners</h2>
+                     <span className="sub-title">{t("subtitle")}</span>
+                     <h2 className="title">{t("title")}</h2>
                   </div>
                </div>
             </div>

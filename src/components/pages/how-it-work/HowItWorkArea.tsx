@@ -1,15 +1,17 @@
 import InjectableSvg from "@/components/common/InjectableSvg";
 import work_data from "@/data/WorkData";
+import { useTranslations } from "next-intl";
 
 const HowItWorkArea = () => {
+   const t = useTranslations("HowItWorks");
    return (
       <section className="work__area-three section-pt-120 section-pb-90">
          <div className="container">
             <div className="row justify-content-center">
                <div className="col-lg-6">
                   <div className="section__title text-center mb-50">
-                     <span className="sub-title">HOW IT WORKS</span>
-                     <h2 className="title">Seamless Logistics in <br/>4 Simple Steps</h2>
+                     <span className="sub-title">{t("subtitle")}</span>
+                     <h2 className="title">{t("title.part1")} <br/>{t("title.part2")}</h2>
                   </div>
                </div>
             </div>
@@ -23,8 +25,8 @@ const HowItWorkArea = () => {
                               <span className="number">{item.number}</span>
                            </div>
                            <div className="work__content work__content-three">
-                              <h4 className="title">{item.title}</h4>
-                              <p>{item.desc}</p>
+                              <h4 className="title">{t(`items.${item.title}.title`)}</h4>
+                              <p>{t(`items.${item.title}.text`)}</p>
                            </div>
                            <div className="work__shape work__shape-three">
                               <InjectableSvg src="/assets/img/images/work_shape01.svg" alt="" className="injectable" />

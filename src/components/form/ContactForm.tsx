@@ -6,6 +6,7 @@ import { yupResolver } from '@hookform/resolvers/yup';
 import emailjs from '@emailjs/browser';
 import { useRef } from 'react';
 import InjectableSvg from "../common/InjectableSvg"
+import { useTranslations } from 'next-intl';
 
 interface FormData {
    user_name: string;
@@ -22,6 +23,7 @@ const schema = yup
    .required();
 
 const ContactForm = () => {
+   const t = useTranslations("Contact.form")
 
    const { register, handleSubmit, reset, formState: { errors }, } = useForm<FormData>({ resolver: yupResolver(schema), });
 
@@ -31,7 +33,7 @@ const ContactForm = () => {
       if (form.current) {
          emailjs.sendForm('eaglesthemes', 'template_lojvsvb', form.current, 'mtLgOuG25NnIwGeKm')
             .then((result) => {
-               const notify = () => toast('Message sent successfully', { position: 'top-center' });
+               const notify = () => toast(t("toast"), { position: 'top-center' });
                notify();
                reset();
                console.log(result.text);
@@ -49,30 +51,30 @@ const ContactForm = () => {
             <div className="col-lg-4">
                <div className="form-grp">
                   
-                  <input {...register("user_name")} type="text" placeholder="name" />
+                  <input {...register("user_name")} type="text" placeholder={t("item1")} />
                   <p className="form_error">{errors.user_name?.message}</p>
                </div>
             </div>
             <div className="col-lg-4">
                <div className="form-grp">
-                  <input {...register("user_email")} type="email" placeholder="E-mail" />
+                  <input {...register("user_email")} type="email" placeholder={t("item2")} />
                   <p className="form_error">{errors.user_email?.message}</p>
                </div>
             </div>
             <div className="col-lg-4">
                <div className="form-grp">
-                  <input type="tel" name="phone" placeholder="Phone" />
+                  <input type="tel" name="phone" placeholder={t("item3")} />
                </div>
             </div>
          </div>
          <div className="form-grp">
-            <input type="text" name="subject" placeholder="Subject" />
+            <input type="text" name="subject" placeholder={t("item4")} />
          </div>
          <div className="form-grp">
-            <textarea {...register("message")} placeholder="Comments"></textarea>
+            <textarea {...register("message")} placeholder={t("item5")}></textarea>
             <p className="form_error">{errors.message?.message}</p>
          </div>
-         <button type="submit" className="btn red-btn">Send Me Message <InjectableSvg src="/assets/img/icon/right_arrow.svg" alt="" className="injectable" /></button>
+         <button type="submit" className="btn red-btn">{t("button")} <InjectableSvg src="/assets/img/icon/right_arrow.svg" alt="" className="injectable" /></button>
       </form>
    )
 }

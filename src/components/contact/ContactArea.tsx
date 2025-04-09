@@ -1,7 +1,9 @@
 import Link from "next/link"
 import ContactForm from "../form/ContactForm"
+import { useTranslations } from "next-intl"
 
 const ContactArea = () => {
+   const t = useTranslations("Contact")
    return (
       <section className="contact__area section-py-120">
          <div className="container">
@@ -15,8 +17,8 @@ const ContactArea = () => {
             <div className="row">
                <div className="col-lg-4 col-sm-6">
                   <div className="contact__info-item">
-                     <h4 className="title">Office in Baku</h4>
-                     <p className="info-one">Arena plaza, mərtəbə 4, ofis 406 <br/> Baku</p>
+                     <h4 className="title">{t("title")}</h4>
+                     <p className="info-one">{t("desc.part1")} <br/>{t("desc.part2")} </p>
                      {/* <h4 className="title"><Link href="tel:0123456789">+(09) 3456 7890</Link></h4> */}
                      {/* <p className="info-two">Monday – Friday: 9:00-20:00 <br/> Saturday: 11:00 – 15:00</p> */}
                      {/* <Link href="mailto:contactinfo@gmail.com">İnfo@İls.co.az</Link> */}
@@ -44,7 +46,7 @@ const ContactArea = () => {
             <div className="row">
                <div className="col-12">
                   <div className="contact__form-wrap">
-                     <h2 className="title">Send Us Message</h2>
+                     <h2 className="title">{t("text")}</h2>
                      <ContactForm />
                      <p className="ajax-response mb-0"></p>
                   </div>

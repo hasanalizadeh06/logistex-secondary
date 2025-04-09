@@ -25,6 +25,118 @@
         },
         "part4": "With a strong presence in Azerbaijan, Russia, Kazakhstan, Turkey, China, European countries, the UAE, and Georgia, we ensure that businesses and individuals experience hassle-free logistics solutions tailored to their needs."
       }
+    },
+    "section2": {
+      "item1":{
+        "title":"Rail Freight",
+        "text":"Sustainable and reliable transport for bulk shipments."
+      },
+      "item2":{
+        "title":"Land Freight",
+        "text":"Reliable road transport solutions for both domestic and international shipments"
+      },
+      "item3":{
+        "title":"Air Freight",
+        "text":"Fast and efficient delivery for urgent and high-value cargo."
+      },
+      "item4":{
+        "title":"Sea Freight",
+        "text":"Cost-effective shipping solutions for large-scale and international freight."
+      }
+    },
+    "section3":{
+      "item1":"Product delivery",
+      "item2":"Winning Awards",
+      "item3":"Years Experience",
+      "item4":"Secure Parcel" 
+    }
+  },
+  "Services":{
+    "subtitle":"Our Services",
+    "title":"Comprehensive Logistics Solutions for a Global Market",
+    "text":"At International Logistics Services (ILS), we provide a wide range of efficient and secure transportation and customs solutions tailored to meet the diverse needs of businesses and individuals worldwide. With expertise in multiple regions, including Azerbaijan, Russia, Kazakhstan, Turkey, China, European countries, the UAE, and Georgia, we offer customized logistics services to ensure seamless cargo movement across borders.",
+    "list":{
+      "title":"Customs Clearance and Documentation",
+      "footer":{
+        "item1":"Partner with ILS for Seamless Logistics",
+        "item2":"At ILS, we go beyond simple freight forwarding—we deliver trust, efficiency, and reliability with every shipment. Whether you're moving cargo across continents or need specialized customs solutions, we are your trusted logistics partner."
+      },
+      "item1":"Accurate and timely completion of customs documentation.",
+      "item2":"Smooth clearance of goods at international borders.",
+      "item3":"Assistance with regulatory compliance and duty payments.",
+      "item4":"Preparation of essential documents such as CMR, Invoice, and Packing List."
+    },
+    "services":{
+      "item1":{
+        "title":"Sea Freight",
+        "text":"Cost-effective shipping solutions for large-scale and international freight."
+      },
+      "item2":{
+        "title":"Land Freight",
+        "text":"Reliable road transport solutions for both domestic and international shipments"
+      },
+      "item3":{
+        "title":"Air Freight",
+        "text":"Fast and efficient delivery for urgent and high-value cargo."
+      },
+      "item4":{
+        "title":"Rail Freight",
+        "text":"Sustainable and reliable transport for bulk shipments."
+      },
+      "item5":{
+        "title":"Customs Declarations & Clearance",
+        "text":"Expert handling of customs documentation and clearance procedures."
+      },
+      "item6":{
+        "title":"Domestic Deliveries",
+        "text":"Efficient nationwide delivery services across the country."
+      }
+    }
+  },
+  "Partners":{
+    "subtitle":"Our Partners",
+    "title":"Our World wide Partners"
+  },
+  "HowItWorks":{
+    "subtitle":"HOW IT WORKS",
+    "title":{
+      "part1":"Seamless Logistics in",
+      "part2":"4 Simple Steps"
+    },
+    "items":{
+      "item1":{
+        "title":"Request & Quote",
+        "text":"Submit your shipment details, and we provide a tailored quote."
+      },
+      "item2":{
+        "title":"Cargo Pickup",
+        "text":"We collect your goods from the specified location and prepare for transit."
+      },
+      "item3":{
+        "title":"Transportation & Customs",
+        "text":"Your cargo is transported via land, air, sea, or rail, with customs clearance handled efficiently."
+      },
+      "item4":{
+        "title":"Delivery & Confirmation",
+        "text":"We ensure secure delivery to the final destination with tracking updates."
+      }
+    }
+  },
+  "Contact":{
+    "title":"Office in Baku",
+    "desc":{
+      "part1":"Arena plaza, floor 4, office 406",
+      "part2":"Baku, Azerbaijan"
+    },
+    "text":"Send Us Message",
+    "form":{
+      "item1":"Name",
+      "item2":"Mail",
+      "item3":"Phone",
+      "item4":"Subject",
+      "item5":"Comments",
+      "toast":"Message sent successfully",
+      "button":"Send Me Message"
     }
   },
   "HomePage":{

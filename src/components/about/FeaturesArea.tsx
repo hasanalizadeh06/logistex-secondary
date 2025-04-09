@@ -1,7 +1,9 @@
 import Image from "next/image"
 import shape from "@/assets/img/images/features_shape.png"
+import { useTranslations } from "next-intl"
 
 const FeaturesArea = () => {
+   const t = useTranslations("AboutPage.section2")
    return (
       <section className="features__area section-pb-90">
          <div className="container">
@@ -12,8 +14,8 @@ const FeaturesArea = () => {
                         <i className="flaticon-train"></i>
                      </div>
                      <div className="features__content">
-                        <h2 className="title">Rail Freight</h2>
-                        <p>Sustainable and reliable transport for bulk shipments.</p>
+                        <h2 style={{fontSize:"16px"}} className="title">{t("item1.title")}</h2>
+                        <p>{t("item1.text")}</p>
                         <h2 className="number">01</h2>
                      </div>
                   </div>
@@ -24,8 +26,8 @@ const FeaturesArea = () => {
                         <i className="flaticon-warehouse-1"></i>
                      </div>
                      <div className="features__content">
-                        <h2 className="title">Land Freight</h2>
-                        <p>Reliable road transport solutions for both domestic and international shipments</p>
+                        <h2 style={{fontSize:"16px"}} className="title">{t("item2.title")}</h2>
+                        <p>{t("item2.text")}</p>
                         <h2 className="number">01</h2>
                      </div>
                   </div>
@@ -36,8 +38,8 @@ const FeaturesArea = () => {
                         <i className="flaticon-air-freight"></i>
                      </div>
                      <div className="features__content">
-                        <h2 className="title">Air Freight</h2>
-                        <p>Fast and efficient delivery for urgent and high-value cargo.</p>
+                        <h2 style={{fontSize:"16px"}} className="title">{t("item3.title")}</h2>
+                        <p>{t("item3.text")}</p>
                         <h2 className="number">02</h2>
                      </div>
                   </div>
@@ -48,8 +50,8 @@ const FeaturesArea = () => {
                         <i className="flaticon-ship"></i>
                      </div>
                      <div className="features__content">
-                        <h2 className="title">Sea Freight</h2>
-                        <p>Cost-effective shipping solutions for large-scale and international freight.</p>
+                        <h2 style={{fontSize:"16px"}} className="title">{t("item4.title")}</h2>
+                        <p>{t("item4.text")}</p>
                         <h2 className="number">03</h2>
                      </div>
                   </div>

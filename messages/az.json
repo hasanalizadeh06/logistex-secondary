@@ -25,6 +25,30 @@
         },
         "part4": "Azərbaycan, Rusiya, Qazaxıstan, Türkiyə, Çin, Avropa ölkələri, BƏƏ və Gürcüstanda güclü mövcudluğumuzla, biz bizneslərin və fərdlərin ehtiyaclarına uyğunlaşdırılmış problemsiz loqistika həlləri ilə təmin olunmasını təmin edirik."
       }
+    },
+    "section2": {
+      "item1": {
+      "title": "Dəmir Yolu Yükdaşıma",
+      "text": "Toplu yüklər üçün davamlı və etibarlı nəqliyyat."
+      },
+      "item2": {
+      "title": "Quru Yükdaşıma",
+      "text": "Həm daxili, həm də beynəlxalq yüklər üçün etibarlı yol nəqliyyatı həlləri."
+      },
+      "item3": {
+      "title": "Hava Yükdaşıma",
+      "text": "Təcili və yüksək dəyərli yüklər üçün sürətli və səmərəli çatdırılma."
+      },
+      "item4": {
+      "title": "Dəniz Yükdaşıma",
+      "text": "Böyük miqyaslı və beynəlxalq yüklər üçün sərfəli göndərmə həlləri."
+      }
+    },
+    "section3": {
+      "item1": "Məhsulun çatdırılması",
+      "item2": "Mükafatların qazanılması",
+      "item3": "İllərin Təcrübəsi",
+      "item4": "Təhlükəsiz Bağlama"
     }
   },
   "HomePage": {
@@ -237,6 +261,94 @@
         }
       }
     }
+  },
+  "Services": {
+    "subtitle": "Xidmətlərimiz",
+    "title": "Qlobal Bazar üçün Əhatəli Loqistika Həlləri",
+    "text": "Beynəlxalq Loqistika Xidmətləri (ILS) olaraq, biz dünya üzrə bizneslərin və fərdlərin müxtəlif ehtiyaclarını qarşılamaq üçün səmərəli və təhlükəsiz nəqliyyat və gömrük həlləri təqdim edirik. Azərbaycan, Rusiya, Qazaxıstan, Türkiyə, Çin, Avropa ölkələri, BƏƏ və Gürcüstan da daxil olmaqla bir çox bölgədə təcrübəmizlə, biz yüklərin sərhədlərdən problemsiz hərəkətini təmin etmək üçün fərdi loqistika xidmətləri təklif edirik.",
+    "list": {
+      "title": "Gömrük Rəsmiləşdirilməsi və Sənədləşmə",
+      "footer": {
+        "item1": "ILS ilə Problemsiz Loqistika Tərəfdaşlığı",
+        "item2": "ILS-də biz sadə yük daşımadan daha çoxunu təqdim edirik – hər bir göndərişlə etibar, səmərəlilik və etibarlılıq çatdırırıq. Yüklərinizi qitələr arasında hərəkət etdirmək və ya xüsusi gömrük həllərinə ehtiyacınız varsa, biz sizin etibarlı loqistika tərəfdaşınızıq."
+      },
+      "item1": "Gömrük sənədlərinin dəqiq və vaxtında tamamlanması.",
+      "item2": "Beynəlxalq sərhədlərdə malların problemsiz rəsmiləşdirilməsi.",
+      "item3": "Tənzimləmə uyğunluğu və rüsum ödənişləri ilə bağlı yardım.",
+      "item4": "CMR, Faktura və Qablaşdırma Siyahısı kimi vacib sənədlərin hazırlanması."
+    },
+    "services": {
+      "item1": {
+        "title": "Dəniz Yükdaşıma",
+        "text": "Böyük miqyaslı və beynəlxalq yüklər üçün sərfəli göndərmə həlləri."
+      },
+      "item2": {
+        "title": "Quru Yükdaşıma",
+        "text": "Həm daxili, həm də beynəlxalq yüklər üçün etibarlı yol nəqliyyatı həlləri."
+      },
+      "item3": {
+        "title": "Hava Yükdaşıma",
+        "text": "Təcili və yüksək dəyərli yüklər üçün sürətli və səmərəli çatdırılma."
+      },
+      "item4": {
+        "title": "Dəmir Yolu Yükdaşıma",
+        "text": "Toplu yüklər üçün davamlı və etibarlı nəqliyyat."
+      },
+      "item5": {
+        "title": "Gömrük Bəyannamələri və Rəsmiləşdirilməsi",
+        "text": "Gömrük sənədlərinin və rəsmiləşdirilmə prosedurlarının peşəkar idarə olunması."
+      },
+      "item6": {
+        "title": "Daxili Çatdırılmalar",
+        "text": "Ölkə daxilində səmərəli çatdırılma xidmətləri."
+      }
+    }
+  },
+  "HowItWorks": {
+    "subtitle": "NECƏ İŞLƏYİR",
+    "title": {
+      "part1": "Loqistika Prosesimizi",
+      "part2": "4 Sadə Addımda Açıqlayırıq"
+    },
+    "items": {
+      "item1": {
+        "title": "Sorğu və Təklif",
+        "text": "Göndəriş detallarınızı təqdim edin və biz fərdi təklif təqdim edirik."
+      },
+      "item2": {
+        "title": "Yükün Götürülməsi",
+        "text": "Biz mallarınızı göstərilən yerdən toplayırıq və tranzit üçün hazırlayırıq."
+      },
+      "item3": {
+        "title": "Nəqliyyat və Gömrük",
+        "text": "Yükünüz quru, hava, dəniz və ya dəmir yolu ilə daşınır, gömrük rəsmiləşdirilməsi səmərəli şəkildə idarə olunur."
+      },
+      "item4": {
+        "title": "Çatdırılma və Təsdiq",
+        "text": "Biz son təyinat yerinə təhlükəsiz çatdırılmanı izləmə yeniləmələri ilə təmin edirik."
+      }
+    }
+  },
+  "Contact": {
+    "title": "Bakı Ofisi",
+    "desc": {
+      "part1": "Arena plaza, 4-cü mərtəbə, ofis 406",
+      "part2": "Bakı, Azərbaycan"
+    },
+    "text": "Bizə Mesaj Göndərin",
+    "form": {
+      "item1": "Ad",
+      "item2": "E-Poçt",
+      "item3": "Telefon",
+      "item4": "Mövzu",
+      "item5": "Şərhlər",
+      "toast": "Mesaj uğurla göndərildi",
+      "button": "Mesaj Göndərin"
+    }
+  },
+  "Partners": {
+    "subtitle": "Bizim Partnyorlarımız",
+    "title": "Bizim Dünya üzrə Partnyorlarımız"
   },
   "Footer": {
     "title1": "Ən sürətli və təhlükəsiz nəqliyyat üsulu",

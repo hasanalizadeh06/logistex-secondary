@@ -1,6 +1,8 @@
+import { useTranslations } from 'next-intl'
 import React from 'react'
 
 const Counter = () => {
+   const t = useTranslations("AboutPage.section3")
    return (
       <section className="counter__area counter__bg section-pt-120 section-pb-90" data-background="assets/img/bg/vector_bg05.svg">
          <div className="container">
@@ -12,7 +14,7 @@ const Counter = () => {
                      </div>
                      <div className="counter__content-two">
                         <h2 className="count"><span className="counter-number">165</span>+</h2>
-                        <p>Product delivery</p>
+                        <p>{t("item1")}</p>
                      </div>
                   </div>
                </div>
@@ -23,7 +25,7 @@ const Counter = () => {
                      </div>
                      <div className="counter__content-two">
                         <h2 className="count"><span className="counter-number">42</span>+</h2>
-                        <p>Winning Awards</p>
+                        <p>{t("item2")}</p>
                      </div>
                   </div>
                </div>
@@ -34,7 +36,7 @@ const Counter = () => {
                      </div>
                      <div className="counter__content-two">
                         <h2 className="count"><span className="counter-number">30</span>+</h2>
-                        <p>Years Experience</p>
+                        <p>{t("item3")}</p>
                      </div>
                   </div>
                </div>
@@ -45,7 +47,7 @@ const Counter = () => {
                      </div>
                      <div className="counter__content-two">
                         <h2 className="count"><span className="counter-number">65</span>+</h2>
-                        <p>Secure Parcel</p>
+                        <p>{t("item4")}</p>
                      </div>
                   </div>
                </div>
