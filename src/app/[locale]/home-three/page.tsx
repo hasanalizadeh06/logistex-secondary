@@ -2,7 +2,7 @@ import HomeThree from "@/components/homes/home-three";
 import Wrapper from "@/layouts/Wrapper";
 
 export const metadata = {
-   title: "home three Logistex - Transport & Logistics React Next js Template",
+   title: "ILS - Transport & Logistics",
 };
 const page = () => {
    return (

@@ -23,11 +23,7 @@ const FooterThree = () => {
                         </div>
                         <div className="footer__social footer__social-three">
                            <ul className="list-wrap">
-                              <li><Link href="https://www.facebook.com/" target="_blank"><i className="fab fa-facebook-f"></i></Link></li>
-                              <li><Link href="https://twitter.com" target="_blank"><i className="fab fa-twitter"></i></Link></li>
-                              <li><Link href="https://www.whatsapp.com/" target="_blank"><i className="fab fa-whatsapp"></i></Link></li>
-                              <li><Link href="https://www.instagram.com/" target="_blank"><i className="fab fa-instagram"></i></Link></li>
-                              <li><Link href="https://www.youtube.com/" target="_blank"><i className="fab fa-youtube"></i></Link></li>
+                              <li><Link href="https://www.linkedin.com/company/i̇ls-llc/" target="_blank"><i className="fab fa-linkedin"></i></Link></li>
                            </ul>
                         </div>
                         <div className="copyright-text copyright-text-three">
@@ -75,7 +71,7 @@ const FooterThree = () => {
                               </li>
                               <li>
                                  <i className="flaticon-telephone"></i>
-                                 <a href="tel:0123456789">+123 888 9999</a>
+                                 <a href="tel:0123456789">+(994) 050 988 97 77</a>
                               </li>
                               <li>
                                  <i className="flaticon-time"></i>

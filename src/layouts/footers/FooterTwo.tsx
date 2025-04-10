@@ -25,11 +25,7 @@ const FooterTwo = ({ style }: propsType) => {
                         </div>
                         <div className="footer__social footer__social-two">
                            <ul className="list-wrap">
-                              <li><Link href="https://www.facebook.com/" target="_blank"><i className="fab fa-facebook-f"></i></Link></li>
-                              <li><Link href="https://twitter.com" target="_blank"><i className="fab fa-twitter"></i></Link></li>
-                              <li><Link href="https://www.whatsapp.com/" target="_blank"><i className="fab fa-whatsapp"></i></Link></li>
-                              <li><Link href="https://www.instagram.com/" target="_blank"><i className="fab fa-instagram"></i></Link></li>
-                              <li><Link href="https://www.youtube.com/" target="_blank"><i className="fab fa-youtube"></i></Link></li>
+                              <li><Link href="https://www.linkedin.com/company/i̇ls-llc/" target="_blank"><i className="fab fa-linkedin"></i></Link></li>
                            </ul>
                         </div>
                         <div className="copyright-text copyright-text-two">
@@ -77,7 +73,7 @@ const FooterTwo = ({ style }: propsType) => {
                               </li>
                               <li>
                                  <i className="flaticon-telephone"></i>
-                                 <Link href="tel:0123456789">+123 888 9999</Link>
+                                 <Link href="tel:+994509889777">+(994) 050 988 97 77</Link>
                               </li>
                               <li>
                                  <i className="flaticon-time"></i>
