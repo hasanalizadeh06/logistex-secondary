@@ -25,10 +25,10 @@ const HeaderTwo = () => {
                   <div className="col-12">
                      <div className="tgmenu__wrap">
                         <div className="logo">
-                           <Link href="/"><Image style={{maxWidth:230}} src={logo_1} alt="Logo" /></Link>
+                           <Link href="/"><Image style={{maxWidth:180}} src={logo_1} alt="Logo" /></Link>
                         </div>
                         <div className="logo d-none">
-                           <Link href="/"><Image style={{maxWidth:230}} src={logo_2} alt="Logo" /></Link>
+                           <Link href="/"><Image style={{maxWidth:180}} src={logo_2} alt="Logo" /></Link>
                         </div>
                         <div className="tgmenu__navbar-wrap tgmenu__main-menu d-none d-xl-flex">
                            <NavMenu />

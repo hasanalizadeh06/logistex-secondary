@@ -36,7 +36,7 @@ const FooterOne = () => {
                   <div className="col-xl-4 col-lg-5 col-md-6">
                      <div className="footer__widget">
                         <div className="footer__logo">
-                           <Link href="/"><Image src={logo} alt="logo" /></Link>
+                           <Link href="/"><Image style={{maxWidth:350, minHeight: 90}} src={logo} alt="logo" /></Link>
                         </div>
                         <div className="footer__content">
                            <p>{t("text")}</p>

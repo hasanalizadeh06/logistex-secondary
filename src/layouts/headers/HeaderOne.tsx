@@ -33,7 +33,7 @@ const HeaderOne = () => {
                      <div className="tgmenu__wrap">
                         <div className="tgmenu__nav-left-side">
                            <div className="logo">
-                              <Link href="/"><Image style={{maxWidth:230}} src={logo} alt="Logo" /></Link>
+                              <Link href="/"><Image style={{maxWidth:180}} src={logo} alt="Logo" /></Link>
                            </div>
                         </div>
                         <div className="tgmenu__navbar-wrap tgmenu__main-menu d-none d-xl-flex">
