@@ -8722,7 +8722,7 @@ body .theme-red .scroll__top:hover {
   color: var(--tg-color-white-default);
 }
 .testimonial__nav-wrap-three button:hover {
-  background: var(--tg-theme-primary);
+  background: var(--tg-theme-);
 }
 .testimonial-active {
   position: relative;
